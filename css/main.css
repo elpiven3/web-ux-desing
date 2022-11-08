@@ -1,0 +1,98 @@
+/*
+ color gris: #dde8e6
+ color blanco: #fff
+ color negro #292a2c
+ */
+
+/* Importaciones y variables */
+@font-face {
+    font-family: "Yorkten";
+    src: url("../font/Yorkten-NorBoo.woff2") format("woff2");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Prima-Sans";
+    src: url("../font/Prima-Sans-Regular.woff2") format("woff2");
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: "Fontspring";
+    src: url("../font/Fontspring-DEMO-apparel-black.woff2") format("woff2");
+    font-display: fallback;
+}
+
+/* Etiquetas globales */
+body {
+    margin: 0;
+    font-family: Prima-Sans;
+    font-display: swap;
+    color: #292a2c;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Fontspring;
+}
+
+/* Clases globales */
+.container {
+    max-width: 40rem;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.alert {
+    font-family: Yorkten;
+    background-color: #dde8e6;
+    font-size: 1.2rem;
+    padding: .3rem 0;
+    margin: 2rem 0;
+}
+.alert-text {
+    margin: 0;
+    text-align: center;
+    line-height: 2rem;
+}
+.link {
+    color: #292a2c;
+}
+.link:hover {
+    color: #4e5155;
+}
+
+
+.button {
+    display: inline-block;
+    border: 1.3px solid #292a2c;
+    color: #292a2c;
+    text-decoration: none;
+    text-align: center;
+    padding: .8rem 2.5rem;
+    border-radius: 2.5rem;
+    font-weight: bold;
+    transition: .3s;
+}
+.button:hover {
+    background: #292a2c;
+    color: #fff;
+}
+
+/* Etiquetas directas */
+.info {
+    max-width: 55%;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+}
+
+.info-titulo {
+    font-size: 3.8rem;
+}
+
+.info-text {
+    line-height: 1.7rem;
+}
+
+.info-button {
+    margin: 2rem 0;
+}
